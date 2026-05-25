@@ -80,7 +80,7 @@ const MOCK_PROFILE = {
 }
 
 export default function ProfilePage() {
-  const { username } = useParams()
+  const { username: _username } = useParams()
   const profile = MOCK_PROFILE
 
   return (
